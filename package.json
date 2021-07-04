@@ -1,0 +1,58 @@
+{
+  "name": "kdle",
+  "version": "0.1.0",
+  "description": "Competition quiz game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggiechapple/kdle.git"
+  },
+  "keywords": [
+    "quiz",
+    "trivia",
+    "game",
+    "multiplayer",
+    "node",
+    "express",
+    "mongodb",
+    "mongoose",
+    "socket.io",
+    "rest-api"
+  ],
+  "author": "Reginald Chapple",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/reggiechapple/kdle/issues"
+  },
+  "homepage": "https://github.com/reggiechapple/kdle#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.1",
+    "bootstrap-icons": "^1.5.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.4.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

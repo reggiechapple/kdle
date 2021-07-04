@@ -1,0 +1,23 @@
+@hostname = http://localhost:3000
+@path = /
+
+GET {{hostname}}/{{path}}
+
+###
+
+POST {{hostname}}
+Content-Type: application/json
+
+{
+  "name": "<h1>Moment of truth</h1>",
+  "description": "Hello, one and all!"
+}
+
+###
+GET {{hostname}}/{{path}}/1
+
+###
+PUT {{hostname}}/{{path}}/2
+
+###
+DELETE {{hostname}}/{{path}}/2
